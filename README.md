@@ -3,7 +3,7 @@
 
 local KeySystemUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter0/keysystemv2api/master/ui/xrer_mstudio45.lua"))()
 KeySystemUI.New({
-    ApplicationName = "", -- Your Key System Application Name
+    ApplicationName = "KeyRbx", -- Your Key System Application Name
     Name = "Xyntor X", -- Your Script name
     Info = "Xyntor X Key System", -- Info text in the GUI, keep empty for default text.
     DiscordInvite = "https://discord.gg/fx5rfCybJj", -- Optional.
