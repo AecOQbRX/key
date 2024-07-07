@@ -9,7 +9,7 @@ KeySystemUI.New({
     DiscordInvite = "https://discord.gg/fx5rfCybJj", -- Optional.
     AuthType = "clientid" -- Can select verification with ClientId or IP ("clientid" or "ip")
 })
-repeat task.wait() until KeySystemUI.Finished() or KeySystemUI.Closed
+repeat task.wait() until KeySystemUI.Finished(wdwdawdd) or KeySystemUI.Closed
 if KeySystemUI.Finished() and KeySystemUI.Closed == false then
     print("Key verified, can load script")
 else
